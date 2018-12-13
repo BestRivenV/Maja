@@ -1,5 +1,6 @@
-
-![256x256.png](https://upload-images.jianshu.io/upload_images/2523674-1ad917d7d89c9625.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<p align="center" >
+<img src="https://upload-images.jianshu.io/upload_images/2523674-1ad917d7d89c9625.png" alt="Maja" title="Maja">
+</p>
 
 # Maja
 Maja 是一款在Mac OS上运行的代码混淆工具，针对iOS应用机审4.3被拒。为了过机审，我会做下面这些处理：
@@ -15,11 +16,11 @@ Maja 是一款在Mac OS上运行的代码混淆工具，针对iOS应用机审4.3
 ## 使用介绍
 直接下载Maja.dmg安装运行
 
-##注意
-1.修改类名前缀，如果没有原类名前缀，就填XX，不要空着，空着就不会执行此修改了。
-2.代码混淆，混淆会在填入的项目路径下生成ignoreKey.txt、system_identifiers.txt、user_identifiers.txt、confuse_log.log、XXXXTimeString.h等文件。XXXXTimeString.h为混淆文件，请自行改名后导入到工程中，并在预编译.pch文件中引用此文件，其他可删除。
-3.垃圾代码，如果添加的垃圾代码是随机字符构成的会被认为是混淆代码而悲剧，垃圾代码的方法没被调用会被机审过滤掉，不知道是不是真的，如果你有垃圾代码可先导入到工程中然后用本工具混淆。
-4.补充，代码里不要包含任何“代码混淆、加密、CodeMix、CodeConfuse...”等中英文字段
+## 注意
+- 修改类名前缀，如果没有原类名前缀，就填XX，不要空着，空着就不会执行此修改了。
+- 代码混淆，混淆会在填入的项目路径下生成ignoreKey.txt、system_identifiers.txt、user_identifiers.txt、confuse_log.log、XXXXTimeString.h等文件。XXXXTimeString.h为混淆文件，请自行改名后导入到工程中，并在预编译.pch文件中引用此文件，其他可删除。
+- 垃圾代码，如果添加的垃圾代码是随机字符构成的会被认为是混淆代码而悲剧，垃圾代码的方法没被调用会被机审过滤掉，不知道是不是真的，如果你有垃圾代码可先导入到工程中然后用本工具混淆。
+- 补充，代码里不要包含任何“代码混淆、加密、CodeMix、CodeConfuse...”等中英文字段
 
-##最后
+## 最后
 理论上只要你肯改就能过审，提上去的包里无非是代码和资源。以上的处理会改掉一些马甲包4.3的特征，或者说不让苹果100%认定Which is considered a form of spam，不过现在是宁可错杀不放一个。人审也会给4.3，注意区分，最后祝大家早日过包:)
