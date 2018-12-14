@@ -26,8 +26,8 @@ Maja 是一款在Mac OS上运行的代码混淆工具，针对iOS应用机审4.3
 ## 最后
 理论上只要你肯改就能过审，提上去的包里无非是代码和资源。以上的处理会改掉一些马甲包4.3的特征，或者说不让苹果100%认定Which is considered a form of spam，不过现在是宁可错杀不放一个。人审也会给4.3，注意区分，最后祝大家早日过包:)
 
->Guideline 4.3 - Design(人审) 
+>Guideline 4.3 - Design(人审)  
 We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.  
 
->Guideline 4.3 - Design(机审) 
+>Guideline 4.3 - Design(机审)  
 This app duplicates the content and functionality of other apps submitted by you or another developer to the App Store, which is considered a form of spam.
